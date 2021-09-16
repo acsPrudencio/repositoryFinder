@@ -20,11 +20,11 @@ export default function Repositories() {
 
     return (
         <S.Container>
-            <S.Title>Repositóries</S.Title>
+            <S.Title>Repositories</S.Title>
             <S.List>
                 {repositories.map(repository => {
                     return (
-                        <S.ListItem to="">Repositório: {repository}</S.ListItem>
+                        <S.ListItem to="">Repository: {repository}</S.ListItem>
                     )
                 })}
             </S.List>
